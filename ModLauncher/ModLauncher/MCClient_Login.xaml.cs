@@ -17,6 +17,8 @@ namespace ModLauncher
 {
     public partial class MCClient_Login : Window
     {
+        public static MainWindow main;
+
         public MCClient_Login() {
             InitializeComponent();
         }
@@ -35,14 +37,40 @@ namespace ModLauncher
             if (EMail_Box.Text.Length > 1 && Password_Box.Password.Length > 1) {
                 File.WriteAllText("BlockyCrafters/Login.txt", EMail_Box.Text + " " + Password_Box.Password);
 
+                Dispatcher.Invoke(() =>
+                {
+                    main.Delete_Btn.IsEnabled = true;
+                    main.Start_Btn.IsEnabled = true;
+                });
+
                 Close();
                 MC_Game.Login();
-            } else {
+            }
+            else
+            {
                 MessageBox.Show("Email or Password is invalid!");
             }
         }
 
-        private void LoginClose_Btn_Click(object sender, RoutedEventArgs e) {
+        private void LoginClose_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            Dispatcher.Invoke(() =>
+            {
+                main.Delete_Btn.IsEnabled = true;
+                main.Start_Btn.IsEnabled = true;
+            });
+            Close();
+        }
+
+        private void XBoxLogin_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            Hide();
+            Dispatcher.Invoke(() =>
+            {
+                main.Delete_Btn.IsEnabled = true;
+                main.Start_Btn.IsEnabled = true;
+            });
+            MC_Game.XBoxLogin();
             Close();
         }
     }

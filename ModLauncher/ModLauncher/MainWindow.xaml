@@ -12,7 +12,7 @@
         WindowStartupLocation="CenterScreen"
         ContentRendered="ModLauncher_ContentRendered"
         Icon="Images/BlockyCrafters.png">
-    
+
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="Images/Minecraft_Sky.png"
@@ -149,8 +149,8 @@
                            FontFamily="Font/#Dosis"
                            FontWeight="Medium"/>
 
-                <Button Content="X"
-                        Name="Close_Btn"
+                <Button Name="Close_Btn"
+                        Content="X"
                         Grid.Column="13"
                         Foreground="LightBlue"
                         BorderThickness="0"
@@ -267,7 +267,7 @@
                              BorderThickness="0"
                              FontFamily="Fonts/#Dosis"/>
                 </GroupBox>
-                
+
                 <Grid Grid.Column="2" Grid.Row="2"
                       Height="100">
                     <Grid.ColumnDefinitions>
@@ -276,15 +276,15 @@
                     </Grid.ColumnDefinitions>
 
                     <StackPanel Grid.Column="0">
-                        <Button Content="Neuinstallieren"
-                                Name="Reinstall_Btn"
+                        <Button Content="Löschen"
+                                Name="Delete_Btn"
                             Margin="25"
                             Width="150"
                             Height="40"
                             Foreground="LightBlue"
                             BorderThickness="0"
                             FontSize="18"
-                            FontWeight="Medium" Click="Reinstall_Btn_Click">
+                            FontWeight="Medium" Click="Delete_Btn_Click">
 
                             <Button.Style>
                                 <Style TargetType="Button">
@@ -351,8 +351,16 @@
                             </Button.Template>
                         </Button>
                     </StackPanel>
-                    
-                    <Label Content="v.2.1.0"
+                    <ProgressBar Name="ProgressBar"
+                                 Height="90"
+                                 Margin="0,10,0,0"
+                                 Grid.ColumnSpan="2"
+                                 IsIndeterminate="True"
+                                 Foreground="Purple"
+                                 Background="Black"
+                                 BorderBrush="#00BCBCBC"
+                                 Visibility="Hidden"/>
+                    <Label Content="v.3.1.1"
                            Grid.Column="1"
                            FontFamily="Fonts/#Dosis"
                            FontWeight="Medium"

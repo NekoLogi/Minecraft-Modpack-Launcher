@@ -17,15 +17,14 @@ namespace ModLauncher
         public static void Connect(int index) {
             try {
                 socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                IPEndPoint endPoint = new IPEndPoint(IPAddress.Parse("136.243.216.73"), 20);
+                IPEndPoint endPoint = new IPEndPoint(IPAddress.Parse(Settings.IP_ADDRESS), Settings.PORT);
                 socket.Connect(endPoint);
                 HandleData(index);
 
             } catch (Exception e) {
                 if (lastError != e.Message || lastError == null) {
                     lastError = $"Connection failed: {e.Message}";
-                    MainWindow main = new MainWindow();
-                    main.GetError($"Connection failed: {e.Message}");
+                    MainWindow.CurrentWindow.GetError($"Connection failed: {e.Message}");
                 }
                 isConnected = false;
             }
@@ -61,7 +60,6 @@ namespace ModLauncher
                 Console.WriteLine("Error: {0}", e.Message);
                 socket.Close();
             }
-            Console.ReadLine();
         }
 
         static byte[] ReceiveData() {

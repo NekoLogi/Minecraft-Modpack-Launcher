@@ -68,7 +68,7 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <Grid Margin="20, 30, 20, 0">
+            <Grid Margin="20,10,20,0">
                 <StackPanel Orientation="Vertical">
                     <Label Content="E-Mail:"
                            Foreground="LightBlue"
@@ -109,42 +109,77 @@
                                  FontFamily="Fonts/#Dosis"
                                  FontWeight="Medium"
                                  FontSize="16"/>
+                    
+                    <StackPanel Orientation="Vertical">
+                        <Button Content="Connect with Microsoft"
+                                Name="MicrosoftLogin_Btn"
+                                Margin="2,25,2,2"
+                                Height="30"
+                                Foreground="LightBlue"
+                                BorderThickness="0"
+                                FontSize="18"
+                                FontWeight="Medium" Click="XBoxLogin_Btn_Click">
 
-                    <Button Content="Login"
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                                    <Setter Property="Background" Value="Purple"/>
+                                    <Setter Property="Cursor" Value="Hand"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="DarkViolet"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Height="30"
+                                            CornerRadius="5"
+                                            Background="{TemplateBinding Background}">
+
+                                        <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                        <Button Content="Login"
                                 Name="Login_Btn"
-                                Margin="25"
-                                Width="150"
-                                Height="40"
+                                Margin="2"
+                                Height="30"
                                 Foreground="LightBlue"
                                 BorderThickness="0"
                                 FontSize="18"
                                 FontWeight="Medium" Click="Login_Btn_Click">
 
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
-                                <Setter Property="Background" Value="Purple"/>
-                                <Setter Property="Cursor" Value="Hand"/>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="DarkViolet"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                                    <Setter Property="Background" Value="Purple"/>
+                                    <Setter Property="Cursor" Value="Hand"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="DarkViolet"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
 
-                        <Button.Template>
-                            <ControlTemplate TargetType="Button">
-                                <Border Width="150" Height="40"
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Height="30"
                                             CornerRadius="5"
                                             Background="{TemplateBinding Background}">
 
-                                    <ContentPresenter VerticalAlignment="Center"
+                                        <ContentPresenter VerticalAlignment="Center"
                                                           HorizontalAlignment="Center"/>
-                                </Border>
-                            </ControlTemplate>
-                        </Button.Template>
-                    </Button>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                    </StackPanel>
                 </StackPanel>
             </Grid>
         </Grid>

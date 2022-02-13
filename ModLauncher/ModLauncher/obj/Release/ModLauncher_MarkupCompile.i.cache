@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\User\Projects\C# projects\ModLauncher\ModLauncher\obj\Release\
+D:\User\Github\Minecraft-Modpack-Launcher\ModLauncher\ModLauncher\obj\Release\
 ModLauncher
 none
 false
 TRACE
-D:\User\Projects\C# projects\ModLauncher\ModLauncher\App.xaml
-2-1599969168
+D:\User\Github\Minecraft-Modpack-Launcher\ModLauncher\ModLauncher\App.xaml
+3-1390732534
 
-10640361250
-20-1476847489
-MainWindow.xaml;MCClient_Login.xaml;
+12-862406179
+20357334485
+MainWindow.xaml;MCClient_Login.xaml;Settings.xaml;
 
-True
+False
 
