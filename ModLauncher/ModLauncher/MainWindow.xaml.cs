@@ -80,6 +80,64 @@ namespace ModLauncher
             });
         }
 
+        private void DeleteModpack(FileManager.Modpacks modpack)
+        {
+            if (Directory.Exists($"Launcher/{modpack}"))
+            {
+                try
+                {
+                    BC_ClientState(3);
+                    Directory.Delete($"Launcher/{modpack}", true);
+
+                    Dispatcher.Invoke(() =>
+                    {
+                        MessageBox.Show($"{modpack} deleted!");
+                        switch (modpack)
+                        {
+                            case FileManager.Modpacks.BlockyCrafters:
+                                CurrVerLabel_BC.Content = "Current Version: " + "No Version";
+                                BC_ClientState(0);
+                                break;
+                            case FileManager.Modpacks.ProjectCenturos:
+                                CurrVerLabel_PC.Content = "Current Version: " + "No Version";
+                                PC_ClientState(0);
+                                break;
+                        }
+                    });
+                }
+                catch (Exception)
+                {
+                    switch (modpack)
+                    {
+                        case FileManager.Modpacks.BlockyCrafters:
+                            BC_ClientState(4);
+                            break;
+                        case FileManager.Modpacks.ProjectCenturos:
+                            PC_ClientState(4);
+                            break;
+                    }
+                    GetError($"Failed to delete {modpack}!");
+                }
+            }
+            else
+            {
+                switch (modpack)
+                {
+                    case FileManager.Modpacks.BlockyCrafters:
+                        GetError(
+                            $"Failed to delete {modpack}!\n" +
+                            $"{modpack} doesn't exist.");
+                        BC_ClientState(4);
+                        break;
+                    case FileManager.Modpacks.ProjectCenturos:
+                        GetError(
+                            $"Failed to delete {modpack}!\n" +
+                            $"{modpack} doesn't exist.");
+                        PC_ClientState(4);
+                        break;
+                }
+            }
+        }
 
         #region BlockyCrafters
         // 0 = Install | 1 = Update | 2 = Play | 3 = In Progress | 4 = Error
@@ -587,43 +645,15 @@ namespace ModLauncher
 
         private void Delete_Btn_Click(object sender, RoutedEventArgs e)
         {
-            if (FileServer.isConnected)
+            switch ((sender as Button).Name.ToString().Split('_')[1])
             {
-                if (Directory.Exists("Launcher/BlockyCrafters"))
-                {
-                    try
-                    {
-                        BC_ClientState(3);
-                        Directory.Delete("Launcher/BlockyCrafters", true);
+                case "BC":
+                    DeleteModpack(FileManager.Modpacks.BlockyCrafters);
+                    break;
 
-                        Dispatcher.Invoke(() =>
-                        {
-                            BC_ClientState(0);
-                            MessageBox.Show("Modpack deleted!");
-                            CurrVerLabel_BC.Content = "Current Version: " + "No Version";
-                        });
-
-                    }
-                    catch (Exception)
-                    {
-                        GetError("Failed to delete modpack!");
-                        BC_ClientState(4);
-                    }
-                }
-                else
-                {
-                    GetError(
-                        "Failed to delete modpack!\n" +
-                        "Modpack doesn't exist.");
-                    BC_ClientState(4);
-                }
-            }
-            else
-            {
-                GetError("No connection to the server!\n" +
-                    "If you really want to delete the modpack, delete this folder:\n\n" +
-                    Directory.GetCurrentDirectory() +
-                    "\\BlockyCrafters");
+                case "PC":
+                    DeleteModpack(FileManager.Modpacks.ProjectCenturos);
+                    break;
             }
         }
 
