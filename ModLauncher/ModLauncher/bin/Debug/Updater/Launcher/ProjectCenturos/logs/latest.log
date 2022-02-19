@@ -1,0 +1,445 @@
+[02:26:03] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:26:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:26:03] [main/INFO]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[02:26:03] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at D:\User\Github\Minecraft-Modpack-Launcher\ModLauncher\ModLauncher\bin\Debug\Updater\Launcher\ProjectCenturos\runtime\jre-legacy
+[02:26:03] [main/INFO]: Searching D:\User\Github\Minecraft-Modpack-Launcher\ModLauncher\ModLauncher\bin\Debug\Updater\Launcher\ProjectCenturos\mods for mods
+[02:26:03] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[02:26:03] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:26:03] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[02:26:03] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:26:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:26:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:26:03] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[02:26:03] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[02:26:03] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[02:26:03] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[02:26:03] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: D:\User\Github\Minecraft-Modpack-Launcher\ModLauncher\ModLauncher\bin\Debug\Updater\Launcher\ProjectCenturos\mods\OptiFine_1.12.2_HD_U_G5.jar
+[02:26:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:26:04] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[02:26:04] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[02:26:04] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:26:04] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:26:04] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:26:04] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:26:04] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[02:26:04] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[02:26:05] [Client thread/INFO]: Setting user: NekoLogi
+[02:26:07] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[02:26:07] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[02:26:07] [Client thread/WARN]: Skipping bad option: lastServer:
+[02:26:07] [Client thread/INFO]: LWJGL Version: 2.9.4
+[02:26:07] [Client thread/INFO]: [OptiFine] 
+[02:26:07] [Client thread/INFO]: [OptiFine] OptiFine_1.12.2_HD_U_G5
+[02:26:07] [Client thread/INFO]: [OptiFine] Build: 20210124-142939
+[02:26:07] [Client thread/INFO]: [OptiFine] OS: Windows 8.1 (amd64) version 6.3
+[02:26:07] [Client thread/INFO]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[02:26:07] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[02:26:07] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[02:26:07] [Client thread/INFO]: [OptiFine] OpenGL: NVIDIA GeForce RTX 2070/PCIe/SSE2, version 4.6.0 NVIDIA 511.23, NVIDIA Corporation
+[02:26:07] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[02:26:07] [Client thread/INFO]: [OptiFine] Maximum texture size: 32768x32768
+[02:26:08] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[02:26:08] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 511.23
+[02:26:08] [Client thread/INFO]: [Shaders] Vendor:  NVIDIA Corporation
+[02:26:08] [Client thread/INFO]: [Shaders] Renderer: NVIDIA GeForce RTX 2070/PCIe/SSE2
+[02:26:08] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[02:26:08] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[02:26:08] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[02:26:08] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[02:26:08] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[02:26:08] [Client thread/INFO]: [Shaders] Loaded shaderpack: KUDA-Shaders Legacy.zip
+[02:26:08] [Client thread/INFO]: [OptiFine] [Shaders] Worlds: -1, 1
+[02:26:08] [Client thread/WARN]: [OptiFine] Ambiguous shader option: plantWindSpeed
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in shadow.vsh: 1.6
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in gbuffers_terrain.vsh: 1.60
+[02:26:08] [Client thread/WARN]: [OptiFine] Ambiguous shader option: parallaxWater
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in gbuffers_water.fsh: false
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in world-1/gbuffers_water.fsh: true
+[02:26:08] [Client thread/WARN]: [OptiFine] Ambiguous shader option: noiseTextureResolution
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in gbuffers_water.fsh, composite.fsh, composite1.fsh: 96
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in world-1/composite.fsh: 128
+[02:26:08] [Client thread/WARN]: [OptiFine] Ambiguous shader option: saturation
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in final.fsh: 0.8
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in world-1/final.fsh: 1.0
+[02:26:08] [Client thread/WARN]: [OptiFine] Ambiguous shader option: parallaxWater
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in gbuffers_water.fsh, world-1/gbuffers_water.fsh: false
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in world1/gbuffers_water.fsh: true
+[02:26:08] [Client thread/WARN]: [OptiFine] Ambiguous shader option: noiseTextureResolution
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in gbuffers_water.fsh, composite.fsh, composite1.fsh, world-1/composite.fsh: 96
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in world1/composite.fsh: 128
+[02:26:08] [Client thread/WARN]: [OptiFine] Ambiguous shader option: saturation
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in final.fsh, world-1/final.fsh: 0.8
+[02:26:08] [Client thread/WARN]: [OptiFine]  - in world1/final.fsh: 1.0
+[02:26:08] [VersionCheck/INFO]: [OptiFine] Version found: G5
+[02:26:08] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[02:26:08] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[02:26:08] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[02:26:08] [Client thread/WARN]: [OptiFine] [Shaders] Invalid value: shadowSamples:8
+[02:26:08] [Client thread/WARN]: [OptiFine] [Shaders] Invalid value: shadowSamples:8
+[02:26:08] [Client thread/WARN]: [OptiFine] [Shaders] Invalid value: shadowSamples:8
+[02:26:08] [Client thread/WARN]: [OptiFine] [Shaders] Invalid value: shadowSamples:28
+[02:26:08] [Client thread/WARN]: [OptiFine] [Shaders] Invalid value: shadowSamples:28
+[02:26:08] [Client thread/WARN]: [OptiFine] [Shaders] Invalid option: naturalWaveGenerator, key: screen.Water
+[02:26:08] [Client thread/WARN]: [OptiFine] [Shaders] Invalid option: wisdomWater, key: screen.Water
+[02:26:08] [Client thread/INFO]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_G5, enabling compatibility features
+[02:26:08] [Client thread/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 97795776 bytes (93 MB) / 268435456 bytes (256 MB) up to 6442450944 bytes (6144 MB)
+	JVM Flags: 7 total; -Xmx6144m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 511.23' Renderer: 'NVIDIA GeForce RTX 2070/PCIe/SSE2'
+[02:26:08] [Client thread/INFO]: MinecraftForge v14.23.5.2854 Initialized
+[02:26:08] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[02:26:08] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[02:26:08] [Client thread/INFO]: Replaced 1227 ore ingredients
+[02:26:09] [Client thread/INFO]: Searching D:\User\Github\Minecraft-Modpack-Launcher\ModLauncher\ModLauncher\bin\Debug\Updater\Launcher\ProjectCenturos\mods for mods
+[02:26:09] [Client thread/INFO]: Forge Mod Loader has identified 5 mods to load
+[02:26:09] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, waila] at CLIENT
+[02:26:09] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, waila] at SERVER
+[02:26:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Waila, Invictus.zip, Faithful.zip
+[02:26:10] [Client thread/INFO]: Processing ObjectHolder annotations
+[02:26:10] [Client thread/INFO]: Found 1168 ObjectHolder annotations
+[02:26:10] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[02:26:10] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[02:26:10] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[02:26:10] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[02:26:10] [Client thread/INFO]: Applying holder lookups
+[02:26:10] [Client thread/INFO]: Holder lookups applied
+[02:26:10] [Client thread/INFO]: Applying holder lookups
+[02:26:10] [Client thread/INFO]: Holder lookups applied
+[02:26:10] [Client thread/INFO]: Applying holder lookups
+[02:26:10] [Client thread/INFO]: Holder lookups applied
+[02:26:10] [Client thread/INFO]: Applying holder lookups
+[02:26:10] [Client thread/INFO]: Holder lookups applied
+[02:26:10] [Client thread/INFO]: Injecting itemstacks
+[02:26:10] [Client thread/INFO]: Itemstack injection complete
+[02:26:10] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[02:26:10] [Client thread/INFO]: [OptiFine] Resource packs: Invictus.zip, Faithful.zip
+[02:26:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[02:26:10] [Thread-3/INFO]: Using sync timing. 200 frames of Display.update took 19508100 nanos
+[02:26:10] [Client thread/INFO]: [OptiFine] Loading mcpatcher/font/ascii.properties
+[02:26:10] [Client thread/INFO]: [OptiFine] Loading mcpatcher/font/ascii_sga.properties
+[02:26:11] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[02:26:11] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:26:11] [Thread-5/INFO]: OpenAL initialized.
+[02:26:11] [Sound Library Loader/INFO]: Sound engine started
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/damageboost.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/fireresistance.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/harm.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/heal.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/moveslowdown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/movespeed.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/nightvision.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/poison.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/regeneration.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/linger/weakness.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/damageboost.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/fireresistance.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/harm.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/heal.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/moveslowdown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/movespeed.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/nightvision.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/poison.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/regeneration.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/normal/weakness.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/damageboost.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/fireresistance.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/harm.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/heal.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/moveslowdown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/movespeed.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/nightvision.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/poison.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/regeneration.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] CustomItems: mcpatcher/cit/potion/splash/weakness.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] Sprite size: 32
+[02:26:12] [Client thread/INFO]: [OptiFine] Mipmap levels: 5
+[02:26:12] [Client thread/INFO]: [OptiFine] Multitexture: false
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_connect/bookshelf_a.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/left/bookshelf_b.properties
+[02:26:12] [Client thread/WARN]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/0.png
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/middle/bookshelf_b.properties
+[02:26:12] [Client thread/WARN]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/1.png
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/right/bookshelf_b.properties
+[02:26:12] [Client thread/WARN]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/2.png
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/single/bookshelf_b.properties
+[02:26:12] [Client thread/WARN]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/3.png
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/single/bookshelf_c.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/brewing_stand/brewing_stand.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_clear/glass.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_black/glass_black.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_blue/glass_blue.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_brown/glass_brown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_cyan/glass_cyan.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_gray/glass_gray.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_green/glass_green.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_light_blue/glass_light_blue.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_lime/glass_lime.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_magenta/glass_magenta.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_orange/glass_orange.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_pink/glass_pink.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_purple/glass_purple.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_red/glass_red.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_silver/glass_silver.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_white/glass_white.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_yellow/glass_yellow.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/packed_ice/ice.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/sandstone/sandstone_normal.properties
+[02:26:12] [Client thread/WARN]: [OptiFine] No matchBlocks or matchTiles specified: mcpatcher/ctm/ctm/sandstone/sandstone_normal.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/sandstone_smooth/sandstone_smooth.properties
+[02:26:12] [Client thread/WARN]: [OptiFine] No matchBlocks or matchTiles specified: mcpatcher/ctm/ctm/sandstone_smooth/sandstone_smooth.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/sugar_cane/reeds.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/vines/vine.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_acacia/log_acacia_top.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_birch/log_birch_top.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_dark_oak/log_big_oak_top.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_jungle/log_jungle_top.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_oak/log_oak_top.properties
+[02:26:12] [Client thread/WARN]: [OptiFine] No matchBlocks or matchTiles specified: mcpatcher/ctm/ctm/wood_ends/wood_oak/log_oak_top.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_spruce/log_spruce_top.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_acacia/leaves_acacia.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_big_oak/leaves_big_oak.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_birch/leaves_birch.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_oak/leaves_oak.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/bookshelf/brim/bookshelf.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/bookshelf/color/bookshelf.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/bookshelf/react/bookshelf.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/bookshelf/tome/bookshelf.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/grass_side_fancy/grass_side_2.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/grass_side_fancy/grass_side_overlay_2.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/grass_side_fancy/grass_side_swamp.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/grass_side_fancy/grass_side_yellow.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/gravel/fine/gravel_repeat.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/gravel/gravel_hell.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_acacia/log_acacia.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_birch/log_eucalyptus.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_birch/log_eucalyptus_top.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_dark_oak/horizontal.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_jungle/log_jungle.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_oak/log_oak_swamp.properties
+[02:26:12] [Client thread/WARN]: [OptiFine] File not found: textures/blocks/log_oak_2.png
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/log_oak/log_oak_swamp_top.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/sandstone_normal/sandstone_normal_layers.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/coal_ore_brown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/coal_ore_brown_terrain.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/diamond_ore_brown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/diamond_ore_brown_terrain.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/emerald_ore_brown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/emerald_ore_brown_terrain.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/gold_ore_brown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/gold_ore_brown_terrain.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/iron_ore_brown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/iron_ore_brown_terrain.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/lapis_ore_brown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/lapis_ore_brown_terrain.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/redstone_ore_brown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/redstone_ore_brown_terrain.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/stone_brown.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_brown/stone_brown_terrain.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_1.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_10.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_2.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_3.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_4.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_5.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_6.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_7.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_8.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/coal_ore/band_9.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_1.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_10.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_2.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_3.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_4.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_5.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_6.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_7.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_8.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/diamond_ore/band_9.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_1.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_10.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_2.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_3.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_4.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_5.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_6.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_7.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_8.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/emerald_ore/band_9.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_1.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_10.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_2.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_3.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_4.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_5.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_6.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_7.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_8.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/gold_ore/band_9.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_1.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_10.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_2.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_3.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_4.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_5.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_6.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_7.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_8.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/iron_ore/band_9.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_1.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_10.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_2.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_3.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_4.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_5.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_6.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_7.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_8.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/lapis_ore/band_9.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_1.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_10.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_2.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_3.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_4.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_5.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_6.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_7.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_8.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/redstone_ore/band_9.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_1.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_10.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_2.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_3.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_4.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_5.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_6.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_7.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_8.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_chalk/stone_chalk_9.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/coal_ore_lime.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/diamond_ore_lime.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/emerald_ore_lime.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/gold_ore_lime.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/iron_ore_lime.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/lapis_ore_lime.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/redstone_ore_lime.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stone_lime/stone_lime.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stonebrick/stonebrick.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/blocks/stonebrick/stonebrick_top.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/deadbush/deadbush_scraggly.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/flower_blue_orchid/flower_blue_orchid_swamp.properties
+[02:26:12] [Client thread/WARN]: [OptiFine] File not found: textures/blocks/flower_blue_orchid_2.png
+[02:26:12] [Client thread/WARN]: [OptiFine] File not found: textures/blocks/flower_blue_orchid_3.png
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/flower_dandelion/flower_dandelion_savanna.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/flower_dandelion/flower_dandelion_swamp.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/flower_poppy/flower_rose_savanna.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/models/vine/vine.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] Multipass connected textures: true
+[02:26:12] [Client thread/INFO]: [OptiFine] Multipass connected textures: true
+[02:26:12] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[02:26:12] [Client thread/INFO]: [OptiFine] Scaled too small texture: minecraft:mcpatcher/ctm/default/empty, 16 -> 32
+[02:26:12] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/log_oak_2.png, java.io.FileNotFoundException
+[02:26:12] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/flower_blue_orchid_2.png, java.io.FileNotFoundException
+[02:26:12] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/flower_blue_orchid_3.png, java.io.FileNotFoundException
+[02:26:13] [Client thread/ERROR]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/0.png, java.io.FileNotFoundException
+[02:26:13] [Client thread/ERROR]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/1.png, java.io.FileNotFoundException
+[02:26:13] [Client thread/ERROR]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/2.png, java.io.FileNotFoundException
+[02:26:13] [Client thread/INFO]: [OptiFine] Scaled too small texture: minecraft:white, 16 -> 32
+[02:26:13] [Client thread/ERROR]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/3.png, java.io.FileNotFoundException
+[02:26:13] [Client thread/INFO]: [OptiFine] Custom loader sprites: 1
+[02:26:13] [Client thread/INFO]: Created: 4096x2048 textures-atlas
+[02:26:13] [Client thread/INFO]: [Shaders] allocateTextureMap 5 4096 2048 
+[02:26:13] [Client thread/INFO]: [OptiFine] Animated sprites: 32
+[02:26:14] [Client thread/INFO]: Applying holder lookups
+[02:26:14] [Client thread/INFO]: Holder lookups applied
+[02:26:14] [Client thread/INFO]: Injecting itemstacks
+[02:26:14] [Client thread/INFO]: Itemstack injection complete
+[02:26:14] [Client thread/INFO]: Starting Waila...
+[02:26:14] [Client thread/INFO]: Gathering annotated plugins...
+[02:26:14] [Client thread/INFO]: Gathering wrapped IMC plugins...
+[02:26:14] [Client thread/INFO]: Registering plugins...
+[02:26:14] [Client thread/INFO]: Registering plugin at mcp.mobius.waila.addons.core.PluginCore
+[02:26:14] [Client thread/INFO]: Registering plugin at mcp.mobius.waila.addons.capability.PluginCapability
+[02:26:14] [Client thread/INFO]: Registering plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[02:26:14] [Client thread/INFO]: Starting Waila took 23.43 ms
+[02:26:14] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[02:26:14] [Client thread/WARN]: Skipping bad option: lastServer:
+[02:26:15] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[02:26:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[02:26:15] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[02:26:15] [Client thread/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingwolf.properties
+[02:26:15] [Client thread/INFO]: [OptiFine] Skipped: mcpatcher/anim/blinkingwolf.properties, target texture not loaded from same resource pack
+[02:26:15] [Client thread/INFO]: [OptiFine] Texture animation: mcpatcher/anim/blinkingwolftame.properties
+[02:26:15] [Client thread/INFO]: [OptiFine] Skipped: mcpatcher/anim/blinkingwolftame.properties, target texture not loaded from same resource pack
+[02:26:15] [Client thread/INFO]: [OptiFine] Texture animation: mcpatcher/anim/clouds/cloud_remover.properties
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/water.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/pine.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/birch.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/swampgrass.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/swampfoliage.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/sky0.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/fog0.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/underwater.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/underlava.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/redstone.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/xporb.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/durability.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/pumpkinstem.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/melonstem.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/myceliumparticle.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world-1.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world0.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world1.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: particle.water = ffffff
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: particle.portal = 511a93
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: lilypad = ffffff
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: text.xpbar = 76b048
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: text.boss = 5a2a66
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: text.sign = 352e2a
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: fog.nether = 3f1b13
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: fog.end = 18151a
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: sky.end = 18151a
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Block palette: palette.block.~/colormap/white.png = 83
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/white.png
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Spawn egg shell colors: 18
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Spawn egg spot colors: 18
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Wolf collar colors: 16
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Sheep colors: 15
+[02:26:15] [Client thread/WARN]: [OptiFine] CustomColors: Invalid color: map.obsidian = 15151b
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Map colors: 33
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomColors: Potion colors: 1
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky1.properties
+[02:26:15] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky2.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky3.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky4.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky5.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky6.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky7.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky8.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky9.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky10.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky11.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky12.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/iron_golem.png, variants: 2
+[02:26:16] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider/cave_spider.png, variants: 3
+[02:26:16] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/villager/butcher.png, variants: 3
+[02:26:16] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/villager/farmer.png, variants: 4
+[02:26:16] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/villager/librarian.png, variants: 4
+[02:26:16] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/villager/priest.png, variants: 3
+[02:26:16] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/villager/villager.png, variants: 2
+[02:26:16] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/zombie/zombie.png, variants: 2
+[02:26:16] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider/spider.png, properties: mcpatcher/mob/spider/spider.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider_eyes.png, properties: mcpatcher/mob/spider_eyes.properties
+[02:26:16] [Client thread/INFO]: [OptiFine] Texture pack clouds: none
+[02:26:32] [Client thread/INFO]: Stopping!
+[02:26:32] [Client thread/INFO]: SoundSystem shutting down...
+[02:26:33] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

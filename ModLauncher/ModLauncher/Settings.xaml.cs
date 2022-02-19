@@ -1,16 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace ModLauncher
 {
@@ -57,6 +47,8 @@ namespace ModLauncher
             PORT = int.Parse(Port_Box.Text);
 
             SaveSystem.SaveSettings();
+            MessageBox.Show("Settings gespeichert!");
+            Close();
         }
 
         private void Reset_Btn_Click(object sender, RoutedEventArgs e)
@@ -65,11 +57,9 @@ namespace ModLauncher
             IP_ADDRESS = "116.202.144.25";
             PORT = 20;
 
-            RamUsage_Box.Text = "6144";
-            IPAddress_Box.Text = "116.202.144.25";
-            Port_Box.Text = "20";
-
-            SaveSystem.SaveSettings();
+            RamUsage_Box.Text = RAM.ToString();
+            IPAddress_Box.Text = IP_ADDRESS;
+            Port_Box.Text = PORT.ToString();
         }
 
         private void Grid_MouseDown(object sender, MouseButtonEventArgs e)

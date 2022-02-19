@@ -13,10 +13,10 @@ namespace ModLauncher
         static string forgeVersion;
         static MSession SESSION;
 
-        public static void Login()
+        public static void Login(FileManager.Modpacks modpack)
         {
             var login = new MLogin();
-            string[] userData = File.ReadAllText("BlockyCrafters/Login.txt").Split(' ');
+            string[] userData = File.ReadAllText("Launcher/BlockyCrafters/Login.txt").Split(' ');
             var response = login.Authenticate(userData[0], userData[1]);
 
             if (!response.IsSuccess)
@@ -29,18 +29,18 @@ namespace ModLauncher
             else
             {
                 SESSION = response.Session;
-                _ = LaunchGameAsync();
+                _ = LaunchGameAsync(modpack);
             }
         }
 
-        public static void XBoxLogin()
+        public static void XBoxLogin(FileManager.Modpacks modpack)
         {
             MicrosoftLoginWindow loginWindow = new MicrosoftLoginWindow();
             MSession session = loginWindow.ShowLoginDialog();
             if (session != null)
             {
                 SESSION = session;
-                _ = LaunchGameAsync();
+                _ = LaunchGameAsync(modpack);
             }
         }
 
@@ -55,11 +55,11 @@ namespace ModLauncher
             return MSession.GetOfflineSession("");
         }
 
-        public static async Task LaunchGameAsync()
+        public static async Task LaunchGameAsync(FileManager.Modpacks modpack)
         {
             try
             {
-                var path = new MinecraftPath(Directory.GetCurrentDirectory() + @"\BlockyCrafters");
+                var path = new MinecraftPath(Directory.GetCurrentDirectory() + $@"\Launcher\{modpack}");
                 var launcher = new CMLauncher(path);
 
 
@@ -70,13 +70,13 @@ namespace ModLauncher
                     Session = SESSION
                 };
 
-                forgeVersion = File.ReadAllText("BlockyCrafters/Forge Version.txt");
+                forgeVersion = File.ReadAllText($"Launcher/{modpack}/Forge Version.txt");
                 var process = await launcher.CreateProcessAsync(forgeVersion, launchOption);
                 process.Start();
             }
             catch (Exception)
             {
-                main.GetError("Failed Launching Game!");
+                main.GetError($"Failed Launching {modpack}!");
             }
         }
     }

@@ -1,0 +1,108 @@
+[04:31:47] [WARN] Crucible entry for Oak Sapling with meta 0 already exists, skipping.
+[04:31:47] [WARN] Crucible entry for Spruce Sapling with meta 1 already exists, skipping.
+[04:31:47] [WARN] Crucible entry for Birch Sapling with meta 2 already exists, skipping.
+[04:31:47] [WARN] Crucible entry for Jungle Sapling with meta 3 already exists, skipping.
+[04:31:47] [WARN] Crucible entry for Acacia Sapling with meta 4 already exists, skipping.
+[04:31:47] [WARN] Crucible entry for Dark Oak Sapling with meta 5 already exists, skipping.
+[04:32:00] [INFO] ModConfig Loaded: true
+[04:32:00] [INFO] JEI: Compost Recipe Pages Loaded:         2
+[04:32:00] [INFO] JEI: Fluid Item Transform Recipes Loaded:       24
+[04:32:00] [INFO] JEI: Fluid On Top Recipes Loaded:       2
+[04:32:01] [INFO] JEI: Fluid Transform Recipes Loaded:    1
+[04:32:01] [INFO] JEI: Hammer Recipes Loaded:             42
+[04:32:01] [INFO] JEI: Crook Recipes Loaded:              1
+[04:32:01] [INFO] JEI: Heat Sources Loaded:             69
+[04:32:01] [INFO] JEI: Sieve Recipes Loaded:              56
+[04:32:01] [INFO] JEI: Stone Crucible Recipes Loaded:       1
+[04:32:01] [INFO] JEI: Wood Crucible Recipes Loaded:        1
+[04:32:01] [INFO] Registered Crook Catalyst: enderio:item_dark_steel_crook
+[04:32:01] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_wood
+[04:32:01] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_stone
+[04:32:01] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_iron
+[04:32:01] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_diamond
+[04:32:01] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_gold
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_wood
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_stone
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_andesite
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_granite
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_diorite
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_gold
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_iron
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_diamond
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_bone
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_clay_uncooked
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_clay
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_prismarine
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_netherrack
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_purpur
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_blaze
+[04:32:01] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_tconstruct
+[04:32:01] [INFO] Registered Hammer Catalyst: tcomplement:sledge_hammer
+[04:35:27] [INFO] ModConfig Loaded: true
+[04:35:27] [INFO] JEI: Compost Recipe Pages Loaded:         2
+[04:35:27] [INFO] JEI: Fluid Item Transform Recipes Loaded:       24
+[04:35:27] [INFO] JEI: Fluid On Top Recipes Loaded:       2
+[04:35:27] [INFO] JEI: Fluid Transform Recipes Loaded:    1
+[04:35:27] [INFO] JEI: Hammer Recipes Loaded:             42
+[04:35:27] [INFO] JEI: Crook Recipes Loaded:              1
+[04:35:27] [INFO] JEI: Heat Sources Loaded:             69
+[04:35:27] [INFO] JEI: Sieve Recipes Loaded:              56
+[04:35:27] [INFO] JEI: Stone Crucible Recipes Loaded:       1
+[04:35:27] [INFO] JEI: Wood Crucible Recipes Loaded:        1
+[04:35:27] [INFO] Registered Crook Catalyst: enderio:item_dark_steel_crook
+[04:35:27] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_wood
+[04:35:27] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_stone
+[04:35:27] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_iron
+[04:35:27] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_diamond
+[04:35:27] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_gold
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_wood
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_stone
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_andesite
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_granite
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_diorite
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_gold
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_iron
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_diamond
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_bone
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_clay_uncooked
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_clay
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_prismarine
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_netherrack
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_purpur
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_blaze
+[04:35:27] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_tconstruct
+[04:35:27] [INFO] Registered Hammer Catalyst: tcomplement:sledge_hammer
+[04:36:52] [INFO] ModConfig Loaded: true
+[04:36:52] [INFO] JEI: Compost Recipe Pages Loaded:         2
+[04:36:52] [INFO] JEI: Fluid Item Transform Recipes Loaded:       24
+[04:36:52] [INFO] JEI: Fluid On Top Recipes Loaded:       2
+[04:36:52] [INFO] JEI: Fluid Transform Recipes Loaded:    1
+[04:36:52] [INFO] JEI: Hammer Recipes Loaded:             42
+[04:36:52] [INFO] JEI: Crook Recipes Loaded:              1
+[04:36:52] [INFO] JEI: Heat Sources Loaded:             69
+[04:36:52] [INFO] JEI: Sieve Recipes Loaded:              56
+[04:36:52] [INFO] JEI: Stone Crucible Recipes Loaded:       1
+[04:36:52] [INFO] JEI: Wood Crucible Recipes Loaded:        1
+[04:36:52] [INFO] Registered Crook Catalyst: enderio:item_dark_steel_crook
+[04:36:52] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_wood
+[04:36:52] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_stone
+[04:36:52] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_iron
+[04:36:52] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_diamond
+[04:36:52] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_gold
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_wood
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_stone
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_andesite
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_granite
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_diorite
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_gold
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_iron
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_diamond
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_bone
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_clay_uncooked
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_clay
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_prismarine
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_netherrack
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_purpur
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_blaze
+[04:36:52] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_tconstruct
+[04:36:52] [INFO] Registered Hammer Catalyst: tcomplement:sledge_hammer

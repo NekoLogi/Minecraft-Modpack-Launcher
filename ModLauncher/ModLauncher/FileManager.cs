@@ -1,28 +1,39 @@
-﻿using System.IO.Compression;
-using System.IO;
+﻿using System.IO;
+using System.IO.Compression;
 
 namespace ModLauncher
 {
     static class FileManager
     {
+        public enum Modpacks
+        {
+            BlockyCrafters,
+            ProjectCenturos
+        }
+
         public static string MOD_VERSION { get; set; }
 
-        public static void ModInstall() {
-            if (File.Exists("Cache/blockycrafters.zip")) {
-                string zipPath = "Cache/blockycrafters.zip";
-                string extractpath = "BlockyCrafters";
+        public static void ModInstall(Modpacks modpack)
+        {
+            if (File.Exists($"Cache/{modpack.ToString().ToLower()}.zip"))
+            {
+                string zipPath = $"Cache/{modpack.ToString().ToLower()}.zip";
+                string extractpath = $"Launcher/{modpack}";
+
                 ZipFile.ExtractToDirectory(zipPath, extractpath);
 
-                File.Delete("Cache/blockycrafters.zip");
-                CheckVersion();
+                File.Delete($"Cache/{modpack.ToString().ToLower()}.zip");
+                CheckVersion(modpack);
             }
         }
 
-        public static void ModUpdate() {
-            if (File.Exists("Cache/blockycrafters_update.zip")) {
-                string zipPath = "Cache/blockycrafters_update.zip";
-                string extractpath = "BlockyCrafters";
-                string cache = "Cache/BlockyCrafters";
+        public static void ModUpdate(Modpacks modpack)
+        {
+            if (File.Exists($"Cache/{modpack.ToString().ToLower()}_update.zip"))
+            {
+                string zipPath = $"Cache/{modpack.ToString().ToLower()}_update.zip";
+                string extractpath = $"Launcher/{modpack}";
+                string cache = $"Cache/{modpack.ToString().ToLower()}";
 
                 ZipFile.ExtractToDirectory(zipPath, cache);
 
@@ -54,20 +65,26 @@ namespace ModLauncher
                 ZipFile.ExtractToDirectory(zipPath, extractpath);
 
                 File.Delete(zipPath);
-                CheckVersion();
+                CheckVersion(modpack);
             }
         }
 
-        public static bool CheckVersion() {
-            if (File.Exists("BlockyCrafters/Version.txt")) {
-
-                MOD_VERSION = File.ReadAllText("BlockyCrafters/Version.txt");
-                if (FileServer.isConnected) {
-                    if (MOD_VERSION == FileServer.info[0].Split(' ')[2]) {
+        public static bool CheckVersion(Modpacks modpack)
+        {
+            if (File.Exists($"Launcher/{modpack}/Version.txt"))
+            {
+                MOD_VERSION = File.ReadAllText($"Launcher/{modpack}/Version.txt");
+                
+                if (FileServer.isConnected)
+                {
+                    if (MOD_VERSION == FileServer.info[0])
+                    {
                         return true;
                     }
                 }
-            } else {
+            }
+            else
+            {
                 MOD_VERSION = "No Version";
             }
             return false;

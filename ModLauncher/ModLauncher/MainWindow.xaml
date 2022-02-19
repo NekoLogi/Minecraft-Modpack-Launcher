@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ModLauncher"
         mc:Ignorable="d"
-        Title="BlockyCrafters Launcher" Height="450" Width="800"
+        Title="BlockyCrafters Launcher" Height="480" Width="800"
         WindowStyle="None"
         ResizeMode="NoResize"
         Background="DarkCyan"
@@ -123,31 +123,15 @@
                     </Button.Template>
                 </Button>
 
-                <Label Content="Current Version:"
-                       Name="CurrVerLabel"
-                       Grid.Column="3"
-                       Grid.ColumnSpan="3"
-                       Foreground="LightBlue"
-                       FontFamily="Fonts/#Dosis"
-                       FontWeight="Medium"/>
-
-                <Label Content="Available Version:"
-                       Name="AvalVerLabel"
-                       Grid.Column="6"
-                       Grid.ColumnSpan="3"
-                       Foreground="LightBlue"
-                       FontFamily="Fonts/#Dosis"
-                       FontWeight="Medium"/>
-
-
                 <Label Content="By NekoLogi"
-                           Foreground="LightBlue"
-                           Grid.Column="10"
-                           Grid.ColumnSpan="2"
-                           VerticalAlignment="Center"
-                           HorizontalAlignment="Center"
-                           FontFamily="Font/#Dosis"
-                           FontWeight="Medium"/>
+                       Foreground="LightBlue"
+                       Grid.Column="10"
+                       Grid.ColumnSpan="2"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontFamily="Font/#Dosis"
+                       FontWeight="Medium"
+                       FontSize="10"/>
 
                 <Button Name="Close_Btn"
                         Content="X"
@@ -216,8 +200,47 @@
                     </Button.Template>
                 </Button>
             </Grid>
-            <StackPanel Grid.Row="1">
-                <GroupBox Header="Updates"
+            <TabControl Grid.Row="1"
+                        Grid.Column="0" Grid.ColumnSpan="2"
+                        Background="Transparent"
+                        Foreground="DarkBlue"
+                        BorderBrush="DarkBlue"
+                        BorderThickness="0">
+                <TabControl.Resources>
+                    <Style TargetType="TabItem">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="TabItem">
+                                    <Grid Name="Panel">
+                                        <ContentPresenter x:Name="ContentSite"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
+                                        ContentSource="Header"
+                                        Margin="5,1,5,1"/>
+                                    </Grid>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsSelected" Value="True">
+                                            <Setter TargetName="Panel" Property="Background" Value="blue"/>
+                                        </Trigger>
+                                        <Trigger Property="IsSelected" Value="False">
+                                            <Setter TargetName="Panel" Property="Background" Value="darkblue" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </TabControl.Resources>
+                <TabItem Header="BlockyCrafters"
+                         Background="DarkBlue"
+                         BorderBrush="DarkBlue"
+                         Foreground="LightBlue"
+                         FontFamily="Fonts/#Dosis"
+                         FontWeight="Bold"
+                         FontSize="14">
+                    <WrapPanel>
+                        <StackPanel Grid.Row="1">
+                            <GroupBox Header="Updates"
                           HorizontalAlignment="Center"
                           VerticalAlignment="Center"
                           Foreground="LightBlue"
@@ -225,11 +248,11 @@
                           FontFamily="Fonts/#Dosis"
                           FontWeight="Medium"
                           Width="300"
-                          Height="400"
-                          Margin="5"
+                          Height="410"
+                          Margin="20,0,0,0"
                           BorderThickness="0.5">
 
-                    <TextBox Name="PatchBox"
+                                <TextBox Name="PatchBox_BC"
                         Background="Transparent"
                              IsReadOnly="True"
                              Foreground="LightBlue"
@@ -237,86 +260,100 @@
                              AllowDrop="True"
                              FontSize="14"/>
 
-                </GroupBox>
-            </StackPanel>
-            <StackPanel Grid.Column="2" Grid.Row="1">
-                <Label Content="BlockyCrafters"
-                       FontFamily="Fonts/#Dosis"
-                       Foreground="LightBlue"
-                       FontSize="60"
-                       HorizontalContentAlignment="Center"
-                       VerticalContentAlignment="Center"
-                       FontWeight="Bold"/>
+                            </GroupBox>
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Grid.Row="1"
+                                    Width="474">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Current Version:"
+                                   Name="CurrVerLabel_BC"
+                                   Grid.Column="3"
+                                   Grid.ColumnSpan="3"
+                                   Foreground="LightBlue"
+                                   FontFamily="Fonts/#Dosis"
+                                   FontWeight="Medium"/>
+                                <Label Content="Available Version:"
+                                   Name="AvalVerLabel_BC"
+                                   Grid.Column="6"
+                                   Grid.ColumnSpan="3"
+                                   Foreground="LightBlue"
+                                   FontFamily="Fonts/#Dosis"
+                                   FontWeight="Medium"/>
+                            </StackPanel>
+                            <Label Content="BlockyCrafters"
+                                   FontFamily="Fonts/#Dosis"
+                                   Foreground="LightBlue"
+                                   FontSize="60"
+                                   HorizontalContentAlignment="Center"
+                                   VerticalContentAlignment="Center"
+                                   FontWeight="Bold"/>
+                            <GroupBox Header="Beschreibung"
+                                      Foreground="LightBlue"
+                                      FontFamily="Fonts/#Dosis"
+                                      FontSize="18"
+                                      FontWeight="Medium"
+                                      Height="240"
+                                      Width="430"
+                                      BorderThickness="0.5">
+                            <TextBox Text="Ein im Großteil Technisches Modpack, mit aktuellen Mod-Versionen und Voreingestellten Settings sowie Shader und Resource Pack's.&#10;&#10;Falls du aber dennoch mehr Interesse an Dekor oder die Pflanzenwelt hast,&#10; bist du hier auch nicht falsch."
+                                     Focusable="False"
+                                     HorizontalContentAlignment="Center"
+                                     VerticalContentAlignment="Center"
+                                     TextWrapping="Wrap"
+                                     Background="Transparent"
+                                     Foreground="LightBlue"
+                                     BorderThickness="0"
+                                     FontFamily="Fonts/#Dosis"/>
+                            </GroupBox>
 
-                <GroupBox Header="Beschreibung"
-                          Foreground="LightBlue"
-                          FontFamily="Fonts/#Dosis"
-                          FontSize="18"
-                          FontWeight="Medium"
-                          Height="240"
-                          Width="430"
-                          BorderThickness="0.5">
+                            <Grid Grid.Column="2" Grid.Row="2"
+                                  Height="75">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
 
-                    <TextBox Text="Ein im Großteil Technisches Modpack, mit aktuellen Mod-Versionen und Voreingestellten Settings sowie Shader und Resource Pack's.&#10;&#10;Falls du aber dennoch mehr Interesse an Dekor oder die Pflanzenwelt hast,&#10; bist du hier auch nicht falsch."
-                             Focusable="False"
-                             HorizontalContentAlignment="Center"
-                             VerticalContentAlignment="Center"
-                             TextWrapping="Wrap"
-                             Background="Transparent"
-                             Foreground="LightBlue"
-                             BorderThickness="0"
-                             FontFamily="Fonts/#Dosis"/>
-                </GroupBox>
+                                <StackPanel Grid.Column="0">
+                                    <Button Content="Löschen"
+                                            Name="DeleteBtn_BC"
+                                            Margin="25"
+                                            Width="150"
+                                            Height="40"
+                                            Foreground="LightBlue"
+                                            BorderThickness="0"
+                                            FontSize="18"
+                                            FontWeight="Medium" Click="Delete_Btn_Click">
+                                        <Button.Style>
+                                            <Style TargetType="Button">
+                                                <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                                                <Setter Property="Background" Value="Purple"/>
+                                                <Setter Property="Cursor" Value="Hand"/>
+                                                <Style.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter Property="Background" Value="DarkViolet"/>
+                                                    </Trigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Button.Style>
 
-                <Grid Grid.Column="2" Grid.Row="2"
-                      Height="100">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-
-                    <StackPanel Grid.Column="0">
-                        <Button Content="Löschen"
-                                Name="Delete_Btn"
-                            Margin="25"
-                            Width="150"
-                            Height="40"
-                            Foreground="LightBlue"
-                            BorderThickness="0"
-                            FontSize="18"
-                            FontWeight="Medium" Click="Delete_Btn_Click">
-
-                            <Button.Style>
-                                <Style TargetType="Button">
-                                    <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
-                                    <Setter Property="Background" Value="Purple"/>
-                                    <Setter Property="Cursor" Value="Hand"/>
-                                    <Style.Triggers>
-                                        <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter Property="Background" Value="DarkViolet"/>
-                                        </Trigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </Button.Style>
-
-                            <Button.Template>
-                                <ControlTemplate TargetType="Button">
-                                    <Border Width="150" Height="40"
+                                        <Button.Template>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Width="150" Height="40"
                                             CornerRadius="5"
                                             Background="{TemplateBinding Background}">
 
-                                        <ContentPresenter VerticalAlignment="Center"
+                                                    <ContentPresenter VerticalAlignment="Center"
                                                           HorizontalAlignment="Center"
                                                           />
-                                    </Border>
-                                </ControlTemplate>
-                            </Button.Template>
-                        </Button>
-                    </StackPanel>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Button.Template>
+                                    </Button>
+                                </StackPanel>
 
-                    <StackPanel Grid.Column="1">
-                        <Button Content="Lade Daten.."
-                                Name="Start_Btn"
+                                <StackPanel Grid.Column="1">
+                                    <Button Content="Lade Daten.."
+                                Name="StartBtn_BC"
                                 Margin="25"
                                 Width="150"
                                 Height="40"
@@ -325,42 +362,42 @@
                                 FontSize="18"
                                 FontWeight="Medium" Click="Start_Btn_Click">
 
-                            <Button.Style>
-                                <Style TargetType="Button">
-                                    <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
-                                    <Setter Property="Background" Value="Purple"/>
-                                    <Setter Property="Cursor" Value="Hand"/>
-                                    <Style.Triggers>
-                                        <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter Property="Background" Value="DarkViolet"/>
-                                        </Trigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </Button.Style>
+                                        <Button.Style>
+                                            <Style TargetType="Button">
+                                                <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                                                <Setter Property="Background" Value="Purple"/>
+                                                <Setter Property="Cursor" Value="Hand"/>
+                                                <Style.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter Property="Background" Value="DarkViolet"/>
+                                                    </Trigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Button.Style>
 
-                            <Button.Template>
-                                <ControlTemplate TargetType="Button">
-                                    <Border Width="150" Height="40"
+                                        <Button.Template>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Width="150" Height="40"
                                             CornerRadius="5"
                                             Background="{TemplateBinding Background}">
 
-                                        <ContentPresenter VerticalAlignment="Center"
+                                                    <ContentPresenter VerticalAlignment="Center"
                                                           HorizontalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Button.Template>
-                        </Button>
-                    </StackPanel>
-                    <ProgressBar Name="ProgressBar"
-                                 Height="90"
-                                 Margin="0,10,0,0"
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Button.Template>
+                                    </Button>
+                                </StackPanel>
+                                <ProgressBar Name="ProgressBar_BC"
+                                 Height="60"
+                                 Margin="5,10,0,0"
                                  Grid.ColumnSpan="2"
                                  IsIndeterminate="True"
                                  Foreground="Purple"
                                  Background="Black"
                                  BorderBrush="#00BCBCBC"
                                  Visibility="Hidden"/>
-                    <Label Content="v.3.1.1"
+                                <Label Content="v.3.2.1"
                            Grid.Column="1"
                            FontFamily="Fonts/#Dosis"
                            FontWeight="Medium"
@@ -369,8 +406,193 @@
                            VerticalAlignment="Bottom"
                            HorizontalContentAlignment="Right"/>
 
-                </Grid>
-            </StackPanel>
+                            </Grid>
+                        </StackPanel>
+
+                    </WrapPanel>
+                </TabItem>
+                <TabItem Header="ProjectCenturos"
+                         Background="DarkBlue"
+                         BorderBrush="DarkBlue"
+                         Foreground="LightBlue"
+                         FontFamily="Fonts/#Dosis"
+                         FontWeight="Bold"
+                         FontSize="14">
+                    <WrapPanel>
+                        <StackPanel Grid.Row="1">
+                            <GroupBox Header="Updates"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Center"
+                          Foreground="LightBlue"
+                          FontSize="18"
+                          FontFamily="Fonts/#Dosis"
+                          FontWeight="Medium"
+                          Width="300"
+                          Height="410"
+                          Margin="20,0,0,0"
+                          BorderThickness="0.5">
+
+                                <TextBox Name="PatchBox_PC"
+                        Background="Transparent"
+                             IsReadOnly="True"
+                             Foreground="LightBlue"
+                             BorderThickness="0"
+                             AllowDrop="True"
+                             FontSize="14"/>
+
+                            </GroupBox>
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Grid.Row="1"
+                                    Width="474">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Current Version:"
+                                   Name="CurrVerLabel_PC"
+                                   Grid.Column="3"
+                                   Grid.ColumnSpan="3"
+                                   Foreground="LightBlue"
+                                   FontFamily="Fonts/#Dosis"
+                                   FontWeight="Medium"/>
+                                <Label Content="Available Version:"
+                                   Name="AvalVerLabel_PC"
+                                   Grid.Column="6"
+                                   Grid.ColumnSpan="3"
+                                   Foreground="LightBlue"
+                                   FontFamily="Fonts/#Dosis"
+                                   FontWeight="Medium"/>
+                            </StackPanel>
+
+                            <Label Content="Project Centuros"
+                                   FontFamily="Fonts/#Dosis"
+                                   Foreground="LightBlue"
+                                   FontSize="60"
+                                   HorizontalContentAlignment="Center"
+                                   VerticalContentAlignment="Center"
+                                   FontWeight="Bold"/>
+                            <GroupBox Header="Beschreibung"
+                                      Foreground="LightBlue"
+                                      FontFamily="Fonts/#Dosis"
+                                      FontSize="18"
+                                      FontWeight="Medium"
+                                      Height="240"
+                                      Width="430"
+                                      BorderThickness="0.5">
+                                <TextBox Text="Dieses Modpack ist Resourcen und Modding mässig das gegenteil von BlockyCrafters&#10; und besser für schwächere Systeme.&#10;&#10;Hardcore ist hier kein fremdwort.&#10;Project Centuros ist auf's überleben ausgelegt,&#10;mit Technischen Mods die dir helfen&#10;oder dir das überleben schwerer machen..."
+                                     Focusable="False"
+                                     HorizontalContentAlignment="Center"
+                                     VerticalContentAlignment="Center"
+                                     TextWrapping="Wrap"
+                                     Background="Transparent"
+                                     Foreground="LightBlue"
+                                     BorderThickness="0"
+                                     FontFamily="Fonts/#Dosis"/>
+                            </GroupBox>
+
+                            <Grid Grid.Column="2" Grid.Row="2"
+                      Height="75">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <StackPanel Grid.Column="0">
+                                    <Button Content="Löschen"
+                                            Name="DeleteBtn_PC"
+                                            Margin="25"
+                                            Width="150"
+                                            Height="40"
+                                            Foreground="LightBlue"
+                                            BorderThickness="0"
+                                            FontSize="18"
+                                            FontWeight="Medium" Click="Delete_Btn_Click">
+                                        <Button.Style>
+                                            <Style TargetType="Button">
+                                                <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                                                <Setter Property="Background" Value="Purple"/>
+                                                <Setter Property="Cursor" Value="Hand"/>
+                                                <Style.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter Property="Background" Value="DarkViolet"/>
+                                                    </Trigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Button.Style>
+
+                                        <Button.Template>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Width="150" Height="40"
+                                            CornerRadius="5"
+                                            Background="{TemplateBinding Background}">
+
+                                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"
+                                                          />
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Button.Template>
+                                    </Button>
+                                </StackPanel>
+
+                                <StackPanel Grid.Column="1">
+                                    <Button Content="Lade Daten.."
+                                Name="StartBtn_PC"
+                                Margin="25"
+                                Width="150"
+                                Height="40"
+                                Foreground="LightBlue"
+                                BorderThickness="0"
+                                FontSize="18"
+                                FontWeight="Medium" Click="Start_Btn_Click">
+
+                                        <Button.Style>
+                                            <Style TargetType="Button">
+                                                <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                                                <Setter Property="Background" Value="Purple"/>
+                                                <Setter Property="Cursor" Value="Hand"/>
+                                                <Style.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter Property="Background" Value="DarkViolet"/>
+                                                    </Trigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Button.Style>
+
+                                        <Button.Template>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Width="150" Height="40"
+                                            CornerRadius="5"
+                                            Background="{TemplateBinding Background}">
+
+                                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Button.Template>
+                                    </Button>
+                                </StackPanel>
+                                <ProgressBar Name="ProgressBar_PC"
+                                 Height="60"
+                                 Margin="5,10,0,0"
+                                 Grid.ColumnSpan="2"
+                                 IsIndeterminate="True"
+                                 Foreground="Purple"
+                                 Background="Black"
+                                 BorderBrush="#00BCBCBC"
+                                 Visibility="Hidden"/>
+                                <Label Content="v.3.2.1"
+                           Grid.Column="1"
+                           FontFamily="Fonts/#Dosis"
+                           FontWeight="Medium"
+                           FontSize="10"
+                           Foreground="LightBlue"
+                           VerticalAlignment="Bottom"
+                           HorizontalContentAlignment="Right"/>
+
+                            </Grid>
+                        </StackPanel>
+
+                    </WrapPanel>
+                </TabItem>
+            </TabControl>
         </Grid>
     </Grid>
 </Window>

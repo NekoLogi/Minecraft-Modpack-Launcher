@@ -1,50 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using System.IO;
 
 namespace ModLauncher
 {
     public partial class MCClient_Login : Window
     {
         public static MainWindow main;
+        public static int MODPACK { get; set; }
 
-        public MCClient_Login() {
+        public MCClient_Login()
+        {
             InitializeComponent();
         }
 
-        private void Grid_MouseDown(object sender, MouseButtonEventArgs e) {
-            if (e.LeftButton == MouseButtonState.Pressed) {
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
                 DragMove();
             }
         }
 
-        public void GetError(string error) {
+        public void GetError(string error)
+        {
             MessageBox.Show(error);
         }
 
-        private void Login_Btn_Click(object sender, RoutedEventArgs e) {
-            if (EMail_Box.Text.Length > 1 && Password_Box.Password.Length > 1) {
-                File.WriteAllText("BlockyCrafters/Login.txt", EMail_Box.Text + " " + Password_Box.Password);
+        private void Login_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            if (EMail_Box.Text.Length > 1 && Password_Box.Password.Length > 1)
+            {
+                File.WriteAllText("Launcher/BlockyCrafters/Login.txt", EMail_Box.Text + " " + Password_Box.Password);
 
                 Dispatcher.Invoke(() =>
                 {
-                    main.Delete_Btn.IsEnabled = true;
-                    main.Start_Btn.IsEnabled = true;
+                    main.DeleteBtn_BC.IsEnabled = true;
+                    main.StartBtn_BC.IsEnabled = true;
                 });
 
                 Close();
-                MC_Game.Login();
+                MC_Game.Login((FileManager.Modpacks)MODPACK);
             }
             else
             {
@@ -56,8 +52,8 @@ namespace ModLauncher
         {
             Dispatcher.Invoke(() =>
             {
-                main.Delete_Btn.IsEnabled = true;
-                main.Start_Btn.IsEnabled = true;
+                main.DeleteBtn_BC.IsEnabled = true;
+                main.StartBtn_BC.IsEnabled = true;
             });
             Close();
         }
@@ -67,10 +63,10 @@ namespace ModLauncher
             Hide();
             Dispatcher.Invoke(() =>
             {
-                main.Delete_Btn.IsEnabled = true;
-                main.Start_Btn.IsEnabled = true;
+                main.DeleteBtn_BC.IsEnabled = true;
+                main.StartBtn_BC.IsEnabled = true;
             });
-            MC_Game.XBoxLogin();
+            MC_Game.XBoxLogin((FileManager.Modpacks)MODPACK);
             Close();
         }
     }

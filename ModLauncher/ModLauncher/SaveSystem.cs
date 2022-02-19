@@ -1,4 +1,5 @@
-﻿using System.Xml;
+﻿using System.IO;
+using System.Xml;
 
 namespace ModLauncher
 {
@@ -25,7 +26,7 @@ namespace ModLauncher
                 port_node.InnerText = Settings.PORT.ToString();
                 main_node.AppendChild(port_node);
 
-                document.Save("Settings.xml");
+                document.Save("Launcher/Settings.xml");
 
             }
             catch (System.Exception e)
@@ -34,10 +35,44 @@ namespace ModLauncher
             }
         }
 
+        // Create Client Settings.
+        public static void CreateSettings()
+        {
+            try
+            {
+                var document = new XmlDocument();
+                var main_node = document.CreateElement("Settings");
+                document.AppendChild(main_node);
+
+                var ram_node = document.CreateElement("RAM");
+                ram_node.InnerText = "6144";
+                main_node.AppendChild(ram_node);
+
+                var address_node = document.CreateElement("IP_Address");
+                address_node.InnerText = "116.202.144.25";
+                main_node.AppendChild(address_node);
+
+                var port_node = document.CreateElement("Port");
+                port_node.InnerText = "20";
+                main_node.AppendChild(port_node);
+
+                document.Save("Launcher/Settings.xml");
+
+            }
+            catch (System.Exception e)
+            {
+                Settings.GetError(e.Message);
+            }
+        }
+
+
         // Load Client Settings.
         public static void LoadSettings()
         {
-            using (var xml = new XmlTextReader("Settings.xml"))
+            if (!File.Exists("Launcher/Settings.xml"))
+                CreateSettings();
+
+            using (var xml = new XmlTextReader("Launcher/Settings.xml"))
             {
                 try
                 {

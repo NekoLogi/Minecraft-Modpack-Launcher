@@ -115,3 +115,4 @@ C:\Users\neko\Desktop\ModLauncher\ModLauncher\obj\Release\ModLauncher.csproj.Cor
 C:\Users\neko\Desktop\ModLauncher\ModLauncher\obj\Release\ModLauncher.csproj.CopyComplete
 C:\Users\neko\Desktop\ModLauncher\ModLauncher\obj\Release\ModLauncher.exe
 C:\Users\neko\Desktop\ModLauncher\ModLauncher\obj\Release\ModLauncher.pdb
+D:\User\Github\Minecraft-Modpack-Launcher\ModLauncher\ModLauncher\obj\Release\ModLauncher.csproj.SuggestedBindingRedirects.cache
